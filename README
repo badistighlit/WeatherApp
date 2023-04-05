@@ -1,0 +1,63 @@
+# Weather Alerts
+## Sommaire
+- [Présentation](#présentation)
+- [Fonctionnalités](#fonctionnalités)
+- [Principaux choix techniques](#principaux-choix-techniques)
+- [Contributeurs](#contributeurs)
+
+## Présentation
+Weather Alerts est une application Android qui remonte des alertes sur des conditions météo que l’utilisateur pourra déterminer dans ses préférences.
+
+## Fonctionnalités
+L'application permet de remonter des alertes dans lesquelles l'utilisateur définira une ville et des conditions d'alerte.
+Les données météo sont récupérées à partir de OpenWeatherMap gratuitement.
+Il y a plusieurs conditions qui peuvent être choisies. L'utilisateur n'est pas obligé de renseigner tous les champs lors de la création de son alerte.
+Les conditions disponibles sont :
+<ul>
+<li> Température maximale : si la température (en °c) dépasse ce seuil, une alerte est lancée. </li>
+</ul>
+<ul>
+<li> Température minimale : si la température (en °c) est inférieure à ce seuil, une alerte est lancée. </li>
+</ul>
+<ul>
+<li> Vent : si la vitesse du vent (en m/s) dépasse ce seuil, une alerte est lancée.</li>
+</ul>
+<ul>
+<li> Humidité : si le taux d'humidité (%) dans l'air dépasse ce seuil, une alerte est lancée. </li>
+</ul>
+<ul>
+<li> Pression : si la pression (en hPa) dépasse ce seuil, une alerte est lancée. </li>
+</ul>
+<ul>
+<li> Pluie : s'il pleut, une alerte est lancée. </li>
+</ul>
+<ul>
+<li> Neige : si il neige, une alerte est lancée. </li>
+</ul>
+
+Les alertes sont lancées via des notifications.
+
+
+## Principaux choix techniques
+#### JAVA
+Le langage choisi pour le développement de cette application a été Java.
+Java est le langage Android le plus utilisé dans le développement mobile. L'un de ses plus grands avantages est que les logiciels créés avec ce langage peuvent être facilement installés et exécutés sur différents systèmes d'exploitation, que ce soit Windows, Mac OS, Linux ou autre.
+De plus, Le kit de développement qui l’accompagne est très riche. De nombreuses librairies tierces sont également disponibles pour étoffer le programme. Une application mobile Android codée en Java est plus sûre et plus stable.
+####
+
+#### Android Studio Code
+Le kit de développement Android SDK (Software Development Kit en anglais) permet de créer des applications sur la plate-forme Android. Pour le développement natif Android, Esokia travaille avec Android Studio devenu l’IDE officiel pour Android. Développé sur le populaire IDE IntelliJ IDEA Java, Android Studio permet d’avoir un IDE totalement dédié aux développements Android. Il dispose d’une interface intuitive et simple d’utilisation pour les développeurs et représente donc un gain de temps considérable.
+Il permet entre autres de pouvoir executer le code directement sur un émulateur de smartphone (intégré de base ou logiciel externe) ce qui rend les tests et le développement plus faciles et rapides à réaliser. 
+####
+##
+
+## Contributeurs
+<ul>
+<li> <strong>Badis TIGHLIT</strong>  </li>
+</ul>
+<ul>
+<li> <strong>Aïmen HAMMOUCHE</strong> : <em>alias</em> @Aïmen @miminovicx </li>
+</ul>
+
+##
+#
